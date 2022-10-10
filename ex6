@@ -1,0 +1,9 @@
+let celular = '999188887';
+
+if( celular.length === 11 ){
+    console.log(celular.replace(/^(\d{2})(\d{1})(\d{4})(\d{4})/, "($1) $2 $3-$4"));
+    }else
+        if( celular.length === 9){
+            console.log(celular.replace(/^(\d{1})(\d{4})(\d{4})/, "$1 $2-$3"));
+    }
+    

@@ -1,0 +1,7 @@
+
+let nome = "Addae Simeãooooo";
+let nome2 = nome.replace(/ /g, "");
+let nickN = nome2.substring(-1,0)+"@"+nome2.substring(0,12);
+
+console.log(nickN.toLocaleLowerCase());
+

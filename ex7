@@ -1,0 +1,14 @@
+let email = 'addae.simeao@gmail.com';
+function validaEmail(email) {
+  let re = /\S+@\S+\.\S+/;
+  return re.test(email);
+}
+
+console.log(validaEmail(email));
+
+if (validaEmail(email) === true){
+    console.log("E-mail válido !");
+}else{
+    console.log("E-mail inválido !");
+};
+

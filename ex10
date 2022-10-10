@@ -1,0 +1,8 @@
+let nomeArquivo = 'Foto da Familia.jpg';
+
+
+if( nomeArquivo.includes('jpg') === true | nomeArquivo.includes('jpeg') === true | nomeArquivo.includes('gif') === true |nomeArquivo.includes('png') === true) {
+    console.log("Arquivo valido .");
+}else{
+    console.log("Arquivo invalido .");
+}

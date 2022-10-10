@@ -1,0 +1,13 @@
+let numeroCartao = '1111222233334444';
+
+numeroCartao = numeroCartao.replace(numeroCartao[4], "*");
+numeroCartao = numeroCartao.replace(numeroCartao[5], "*");
+numeroCartao = numeroCartao.replace(numeroCartao[6], "*");
+numeroCartao = numeroCartao.replace(numeroCartao[7], "*");
+numeroCartao = numeroCartao.replace(numeroCartao[8], "*");
+numeroCartao = numeroCartao.replace(numeroCartao[9], "*");
+numeroCartao = numeroCartao.replace(numeroCartao[10], "*");
+numeroCartao = numeroCartao.replace(numeroCartao[11], "*");
+
+
+    console.log(numeroCartao);
